@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2023-11-02T00:52:38.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="RJYrdoIc9NniqINdi3O_" version="22.0.8" type="onedrive">
+  <diagram name="Page-1" id="A60bf0SdpToH6sbCoctT">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-1" value="User" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-2" value="Bot" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-3" value="Discord" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-5" value="API" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-6" value="OpenAI ChatGPT Engine" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="360" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-7" value="Text Prompt" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jf3mIwmUjfsGImp0x9-n-1" target="Jf3mIwmUjfsGImp0x9-n-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="130" as="sourcePoint" />
+            <mxPoint x="270" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-8" value="Lists Results" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jf3mIwmUjfsGImp0x9-n-3" target="Jf3mIwmUjfsGImp0x9-n-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="160" as="sourcePoint" />
+            <mxPoint x="330" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-9" value="Relays Prompt" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jf3mIwmUjfsGImp0x9-n-3" target="Jf3mIwmUjfsGImp0x9-n-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="130" as="sourcePoint" />
+            <mxPoint x="520" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-10" value="Relays Results" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jf3mIwmUjfsGImp0x9-n-2" target="Jf3mIwmUjfsGImp0x9-n-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="180" as="sourcePoint" />
+            <mxPoint x="480" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-11" value="Insert into API" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jf3mIwmUjfsGImp0x9-n-2" target="Jf3mIwmUjfsGImp0x9-n-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="470" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-12" value="Returns Results" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jf3mIwmUjfsGImp0x9-n-5" target="Jf3mIwmUjfsGImp0x9-n-2">
+          <mxGeometry x="-0.3333" width="80" relative="1" as="geometry">
+            <mxPoint x="660" y="200" as="sourcePoint" />
+            <mxPoint x="620" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-13" value="Asks ChatGPT" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jf3mIwmUjfsGImp0x9-n-5" target="Jf3mIwmUjfsGImp0x9-n-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="630" y="330" as="sourcePoint" />
+            <mxPoint x="710" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jf3mIwmUjfsGImp0x9-n-14" value="Answers API" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jf3mIwmUjfsGImp0x9-n-6" target="Jf3mIwmUjfsGImp0x9-n-5">
+          <mxGeometry x="-0.25" width="80" relative="1" as="geometry">
+            <mxPoint x="630" y="320" as="sourcePoint" />
+            <mxPoint x="660" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
